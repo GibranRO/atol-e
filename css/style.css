@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(44, 48, 53);
+}
+
+main {
+  background-color: white;
+}
+
+.main-newsletter {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-newsletter .newsletter-card {
+  width: 400px;
+  padding: 80px 50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.main-newsletter .inputbox {
+  margin-bottom: 50px;
+}
+.main-newsletter .inputbox input {
+  position: absolute;
+  width: 300px;
+  background: transparent;
+}
+.main-newsletter .inputbox input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #e54b38;
+  outline: 0;
+  box-shadow: none;
+}
+.main-newsletter .inputbox span {
+  position: relative;
+  top: 7px;
+  left: 1px;
+  padding-left: 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.main-newsletter .inputbox input:focus ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
+}
+.main-newsletter .inputbox input:valid ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
+}
+
+.img-atole {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+.img-atole img {
+  height: 100%;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.nosotros-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 1rem;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+.nosotros-1 img {
+  width: 450px;
+  height: 100%;
+  filter: grayscale(2);
+}
+.nosotros-1 img:hover {
+  filter: grayscale(0);
+}
+
+.nosotros-2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 1rem;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+.nosotros-2 img {
+  width: 450px;
+  height: 100%;
+  filter: grayscale(2);
+}
+.nosotros-2 img:hover {
+  filter: grayscale(0);
+}
+
+.h1-tops {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.h1-bottoms {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.h1-accesorios {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+footer {
+  background-color: rgba(150, 167, 166, 0.164);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
