@@ -1,0 +1,44 @@
+.img-atole{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    img{
+        height: 100%;
+        gap: 64px;
+        flex-wrap: wrap;
+    }
+}
+
+.nosotros-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    gap: 64px;
+    flex-wrap: wrap;
+    img{
+        width: 450px;
+        height: 100%;
+        filter: grayscale(2);
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+}
+
+.nosotros-2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    gap: 64px;
+    flex-wrap: wrap;
+    img{
+        width: 450px;
+        height: 100%;
+        filter: grayscale(2);
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+}

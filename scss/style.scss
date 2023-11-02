@@ -1,121 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-header{
-    background-color: rgb(44, 48, 53);
-}
+@import "./utilities/funciones";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/variables";
 
-main{
-    background-color: white;
-}
+@import "./base/reset";
+@import "./base/typo";
 
-.main-newsletter{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .newsletter-card{
-        width: 400px;
-        padding: 80px 50px;
-        position: relative;
-        border-radius: 20px;
-        box-shadow: 0 5px 25px rgba(0,0,0,0.2)
-    }
-    .inputbox{
-        margin-bottom: 50px
-    }
-    
-    .inputbox input{
-        position:absolute;width: 300px;background:transparent
-    }
-    
-    .inputbox input:focus{
-        color: #495057;background-color: #fff;border-color: #e54b38;outline: 0;box-shadow: none
-    }
-    
-    .inputbox span{
-        position: relative;top: 7px;left: 1px;padding-left: 10px;display: inline-block;transition: 0.5s
-    }
-    
-    .inputbox input:focus ~ span{
-        transform: translateX(-10px) translateY(-32px);font-size: 12px
-    }
-    
-    .inputbox input:valid ~ span{
-        transform: translateX(-10px) translateY(-32px);font-size: 12px
-    }
-}
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/main-nosotros";
+@import "./layout/main-newsletter";
+@import "./layout/main-tops";
+@import "./layout/main-bottoms";
+@import "./layout/maint-accesorios";
+@import "./layout/footer";
 
-.img-atole{
-    display: flex;
-    justify-content: center;
-    margin: 4rem;
-    img{
-        height: 100%;
-        gap: 64px;
-        flex-wrap: wrap;
-    }
-}
-
-.nosotros-1{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin: 1rem;
-    gap: 64px;
-    flex-wrap: wrap;
-    img{
-        width: 450px;
-        height: 100%;
-        filter: grayscale(2);
-        &:hover{
-            filter: grayscale(0);
-        }
-    }
-}
-
-.nosotros-2{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    margin: 1rem;
-    gap: 64px;
-    flex-wrap: wrap;
-    img{
-        width: 450px;
-        height: 100%;
-        filter: grayscale(2);
-        &:hover{
-            filter: grayscale(0);
-        }
-    }
-}
-
-.h1-tops{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
-
-.h1-bottoms{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
-
-.h1-accesorios{
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
-
-footer{
-    background-color: rgba(150, 167, 166, 0.164);
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 200;
-    text-align: center;
-
-}
+@import "./components/bootstrap";
+@import "./components/cards";

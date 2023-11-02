@@ -12,51 +12,6 @@ main {
   background-color: white;
 }
 
-.main-newsletter {
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main-newsletter .newsletter-card {
-  width: 400px;
-  padding: 80px 50px;
-  position: relative;
-  border-radius: 20px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-}
-.main-newsletter .inputbox {
-  margin-bottom: 50px;
-}
-.main-newsletter .inputbox input {
-  position: absolute;
-  width: 300px;
-  background: transparent;
-}
-.main-newsletter .inputbox input:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #e54b38;
-  outline: 0;
-  box-shadow: none;
-}
-.main-newsletter .inputbox span {
-  position: relative;
-  top: 7px;
-  left: 1px;
-  padding-left: 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.main-newsletter .inputbox input:focus ~ span {
-  transform: translateX(-10px) translateY(-32px);
-  font-size: 12px;
-}
-.main-newsletter .inputbox input:valid ~ span {
-  transform: translateX(-10px) translateY(-32px);
-  font-size: 12px;
-}
-
 .img-atole {
   display: flex;
   justify-content: center;
@@ -100,6 +55,51 @@ main {
 }
 .nosotros-2 img:hover {
   filter: grayscale(0);
+}
+
+.main-newsletter {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-newsletter .newsletter-card {
+  width: 400px;
+  padding: 80px 50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.main-newsletter .inputbox {
+  margin-bottom: 50px;
+}
+.main-newsletter .inputbox input {
+  position: absolute;
+  width: 300px;
+  background: transparent;
+}
+.main-newsletter .inputbox input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #e54b38;
+  outline: 0;
+  box-shadow: none;
+}
+.main-newsletter .inputbox span {
+  position: relative;
+  top: 7px;
+  left: 1px;
+  padding-left: 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.main-newsletter .inputbox input:focus ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
+}
+.main-newsletter .inputbox input:valid ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
 }
 
 .h1-tops {
